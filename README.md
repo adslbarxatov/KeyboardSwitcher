@@ -16,6 +16,7 @@ It is recommended that you prepare this utility for use. Follow the algorithm pr
 3. Move shortcut to 'Main menu' (it is not important what subfolder you will select).
 4. In 'Main menu' do right click on the shortcut and select 'Properties'. Stay in field 'Hotkey'
    and set key combination for quick call of utility (f.e., Ctrl+Alt+K). Press 'OK' button.
+However, nothing disallows you to launch the utility directly from 'Main menu' or 'Desktop'.
 
 # Usage
 
@@ -24,6 +25,12 @@ It is recommended that you prepare this utility for use. Follow the algorithm pr
 2. Copy it to clipboard (Ctrl+C or Ctrl+Ins or right click + Copy).
 3. Call LangChanger (f.e., Ctrl+Alt+K, or directly from 'Main menu').
 4. Paste text backward (Ctrl+V or Shift+Ins or right click + Paste).
+
+# Features
+
+This tool can make copy and paste operations himself. If you specify '-f' flag after the executable
+name in shortcut's properties (f.e., "C:\Program files\LangChanger.exe" -f), this option will be activated. 
+But some applications may incorrectly react to this option.
 
 #
 
