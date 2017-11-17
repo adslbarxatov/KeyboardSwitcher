@@ -38,6 +38,7 @@ However, nothing disallows you to launch the utility directly from 'Main menu' o
 3. Call LangChanger (f.e., Ctrl+Alt+K, or directly from 'Main menu').
 4. Paste text backward (Ctrl+V or Shift+Ins or right click + Paste).
 
+\
 1. Выберите 'плохой' текст. Желательно, чтобы первый символ выделенного фрагмента позволял
    однозначно определить язык текста (т.е. это не должна быть цифра или знак препинания).
 2. Скопируйте его в буфер обмена (Ctrl+C или Ctrl+Ins или правый щелчок мыши + Копировать).
