@@ -16,7 +16,7 @@ ru_ru (0x0419) -> en_us (0x0409), en_us -> ru_ru.
 It is recommended that you prepare this utility for use. Follow the algorithm presented below:
 1. Place 'LangChanger.exe' directly to 'Program files' or 'Program files (x86)' folder.
 2. Create a shortcut for it on your desktop.
-3. Move shortcut to 'Main menu' (it is not important what subfolder you will select).
+3. Move shortcut to 'Main menu' (it doesn't matter what subfolder you will select).
 4. In 'Main menu' do right click on the shortcut and select 'Properties'. Stay in field 'Hotkey'
    and set key combination for quick call of utility (f.e., Ctrl+Alt+K). Press 'OK' button.
 However, nothing disallows you to launch the utility directly from 'Main menu' or 'Desktop'.
@@ -25,7 +25,7 @@ However, nothing disallows you to launch the utility directly from 'Main menu' o
 1. Скопируйте файл 'LangChanger.exe' в папку 'Program files' или 'Program files (x86)'.
 2. Создайте на 'Рабочем столе' ярлык для этого файла.
 3. Переместите ярлык в 'Главное меню' (в любую папку).
-4. В 'Главноем меню' щёлкните правой кнопкой мыши по скопированному ярлыку и выберите меню 'Свойства'.
+4. В 'Главном меню' щёлкните правой кнопкой мыши по скопированному ярлыку и выберите меню 'Свойства'.
    Установите курсор в поле 'Быстрый вызов' и нажмите комбинацию клавиш быстрого вызова программы
    (например, Ctrl+Alt+K). Нажмите 'OK'.
 Впрочем, ничто не мешает запускать эту утилиту из главного меню или с рабочего стола напрямую.
