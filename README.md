@@ -1,6 +1,9 @@
 # LangChanger v 1.0 (based on HSDWLib v 5.2)
+
 A tool for quick fixing wrong keyboard layout selection / Инструмент быстрого исправления раскладки клавиатуры
+
 #
+
 This tool allows you to quickly fix entered text when keyboard layout was selected incorrectly.
 For example, text 'Vfvf vskf hfve' will be changed to 'Мама мыла раму', and text 'Пщщв ьщктштп'
 will be replaced with 'Good morning'. Utility also works with punctuation marks.
