@@ -29,7 +29,7 @@ It is recommended that you prepare this utility for use. Follow the algorithm pr
 2. Create a shortcut for it on your desktop.
 3. Move shortcut to the main menu (it doesn't matter what subfolder you will select).
 4. In Main menu do right click on the shortcut and select ```Properties```. Stay in field ```Hotkey```
-and set key combination for quick call of utility (f.e., ```Ctrl+Alt+K```). Press ```OK``` button.
+and set key combination for quick call of utility (f.e., ```Ctrl + Alt + K```). Press ```OK``` button.
 However, nothing disallows you to launch the utility directly from the main menu or desktop
 
 Перед использованием утилиту следует подготовить к работе. Для этого:
@@ -38,7 +38,7 @@ However, nothing disallows you to launch the utility directly from the main menu
 3. Переместите ярлык в Главное меню (в любую папку).
 4. В Главном меню щёлкните правой кнопкой мыши по скопированному ярлыку и выберите меню ```Свойства```.
 Установите курсор в поле ```Быстрый вызов``` и нажмите комбинацию клавиш быстрого вызова программы
-(например, ```Ctrl+Alt+K```). Нажмите ```OK```.
+(например, ```Ctrl + Alt + K```). Нажмите ```OK```.
 Впрочем, ничто не мешает запускать эту утилиту из главного меню или с рабочего стола напрямую
 
 # Usage / Использование
@@ -64,7 +64,7 @@ incorrectly react to this option
 
 Утилита может выполнять операции копирования и вставки самостоятельно (с переключением текущего окна).
 Если Вы укажете флаг ```-f``` после имени программы в настройках ярлыка (например,
-```"C:\Program files\LangChanger.exe" -f), эта опция станет активной. Однако некоторые приложения
+```"C:\Program files\LangChanger.exe" -f```), эта опция станет активной. Однако некоторые приложения
 могут некорректно реагировать на работу этой функции
 
 #
