@@ -1,17 +1,19 @@
 # LangChanger v 1.0 (based on HSDWLib v 5.2)
 
-A tool for quick fixing wrong keyboard layout selection / Инструмент быстрого исправления раскладки клавиатуры
+A tool for quick fixing wrong keyboard layout selection
+
+Инструмент быстрого исправления раскладки клавиатуры
 
 #
 
 This tool allows you to quickly fix entered text when keyboard layout was selected incorrectly.
-For example, text 'Vfvf vskf hfve' will be changed to 'Мама мыла раму', and text 'Пщщв ьщктштп'
-will be replaced with 'Good morning'. Utility also works with punctuation marks.
+For example, text ```Vfvf vskf hfve``` will be changed to ```Мама мыла раму```, and text ```Пщщв ьщктштп```
+will be replaced with ```Good morning```. Utility also works with punctuation marks.
 Supported directions: ru_ru (0x0419) -> en_us (0x0409), en_us -> ru_ru.
 
 Инструмент позволяет исправлять текст, введённый при ошибочно выбранной раскладке клавиатуры.
-Например, текст 'Vfvf vskf hfve' будет заменён на 'Мама мыла раму', а текст 'Пщщв ьщктштп' –
-на 'Good morning'. Утилита поддерживает знаки препинания. Направления перевода: 
+Например, текст ```Vfvf vskf hfve``` будет заменён на ```Мама мыла раму```, а текст ```Пщщв ьщктштп``` –
+на ```Good morning```. Утилита поддерживает знаки препинания. Направления перевода: 
 ru_ru (0x0419) -> en_us (0x0409), en_us -> ru_ru.
 
 # Installation / Установка (for WinXP or Win7)
@@ -68,4 +70,4 @@ We're strongly recommend reading it before using our products.
 
 #
 
-Needs Windows XP and newer / Требует Windows XP и новее
+Needs Windows XP or newer / Требует Windows XP или новее
