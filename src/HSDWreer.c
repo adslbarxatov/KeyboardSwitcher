@@ -1,6 +1,6 @@
-﻿/////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////
 // Заголовочный файл
-#include "HSDW.h"
+#include "HSDWLib.h"
 
 /////////////////////////////////////////////////////////////////////////////////////
 // Макросы
@@ -20,7 +20,7 @@
 
 /////////////////////////////////////////////////////////////////////////////////////
 // Переменные
-char String[DEFSZ], *StringOut;
+schar String[DEFSZ], *StringOut;
 HGLOBAL hglb;
 HANDLE hnd;
 
@@ -29,7 +29,7 @@ HANDLE hnd;
 int main (int argc, char* argv[])
 	{
 	// Выбор варианта использования
-	unsigned char useCopyComb = 0;
+	uchar useCopyComb = 0;
 	if (argc > 1)
 		{
 		if (((argv[1][0] == '-') || (argv[1][0] == '/')) &&
@@ -58,18 +58,14 @@ int main (int argc, char* argv[])
 	sprintf (String, "%s", hnd);
 
 	// Обработка
-	if (String[0] < 0x80)		// Английский текст
-		{
+	if ((uchar)String[0] < 0x80)		// Английский текст
 		StringOut = ERConvert (String);
-		}
-	else						// Русский текст
-		{
+	else								// Русский текст
 		StringOut = REConvert (String);
-		}
 
 	// Очистка буфера и загрузка строки
 	hglb = GlobalAlloc (GMEM_FIXED, strlen (String) + 1);
-	strcpy_s ((char *)hglb, strlen (String) + 1, StringOut);
+	strcpy_s ((char *)hglb, strlen (StringOut) + 1, StringOut);
 
 	EmptyClipboard ();
 	SetClipboardData (CF_TEXT, hglb);
