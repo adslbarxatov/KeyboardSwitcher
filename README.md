@@ -15,14 +15,18 @@ Supported directions: ru_ru (0x0419) -> en_us (0x0409), en_us -> ru_ru.
 Например, текст ```Vfvf vskf hfve``` будет заменён на ```Мама мыла раму```, а текст ```Пщщв ьщктштп``` –
 на ```Good morning```. Утилита поддерживает знаки препинания.
 
-Направления перевода / Translation directions:
+
+
+## Направления перевода / Translation directions:
 
 ```
 ru_ru (0x0419) -> en_us (0x0409)
 en_us (0x0409) -> ru_ru (0x0419)
 ```
 
-# Installation / Установка (for WinXP or Win7)
+
+
+## Installation / Установка (WinXP, Win7)
 
 It is recommended that you prepare this utility for use. Follow the algorithm presented below:
 1. Place LangChanger.exe directly to ```Program files``` or ```Program files (x86)``` directory.
@@ -41,7 +45,9 @@ However, nothing disallows you to launch the utility directly from the main menu
 (например, ```Ctrl + Alt + K```). Нажмите ```OK```.
 Впрочем, ничто не мешает запускать эту утилиту из главного меню или с рабочего стола напрямую
 
-# Usage / Использование
+
+
+## Usage / Использование
 
 1. Select 'bad' text. It is recommended that the first symbol of selected fragment allows to
 determine text language (not a digit or a punctuation sign).
@@ -55,7 +61,9 @@ determine text language (not a digit or a punctuation sign).
 3. Запустите LangChanger (например, ```Ctrl + Alt + K```, или напрямую из главного меню).
 4. Вставьте текст обратно (```Ctrl + V``` или ```Shift + Ins``` или ```правый щелчок мыши + Вставить```).
 
-# Features / Дополнительные возможности
+
+
+## Features / Дополнительные возможности
 
 This tool can make copy and paste operations by himself (with switching of current window). If you specify
 ```-f``` flag after the executable's name in shortcut's properties (f.e.,
@@ -67,14 +75,24 @@ incorrectly react to this option
 ```"C:\Program files\LangChanger.exe" -f```), эта опция станет активной. Однако некоторые приложения
 могут некорректно реагировать на работу этой функции
 
-#
 
-We've formalized our [Applications development policy (ADP)](https://vk.com/@rdaaow_fupl-adp).
-We're strongly recommend reading it before using our products.
 
-Мы формализовали нашу [Политику разработки приложений (ADP)](https://vk.com/@rdaaow_fupl-adp).
-Настоятельно рекомендуем ознакомиться с ней перед использованием наших продуктов.
-
-#
+## Requirements / Требования
 
 Needs Windows XP or newer / Требует Windows XP или новее
+
+
+
+## Development policy and EULA / Политика разработки и EULA
+
+This [Policy (ADP)](https://vk.com/@rdaaow_fupl-adp), its positions, conclusion, EULA and application methods
+describes general rules that we follow in all of our development processes, released applications and implemented
+ideas.
+**It must be acquainted by participants and users before using any of laboratory's products.
+By downloading them, you agree to this Policy**
+
+Данная [Политика (ADP)](https://vk.com/@rdaaow_fupl-adp), её положения, заключение, EULA и способы применения
+описывают общие правила, которым мы следуем во всех наших процессах разработки, вышедших в релиз приложениях
+и реализованных идеях.
+**Обязательна к ознакомлению всем участникам и пользователям перед использованием любого из продуктов лаборатории.
+Загружая их, вы соглашаетесь с этой Политикой**
