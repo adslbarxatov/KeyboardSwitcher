@@ -84,7 +84,9 @@ incorrectly react to this option
 
 ## Requirements / Требования
 
-Needs Windows XP or newer / Требует Windows XP или новее
+Needs Windows XP or newer, Framework 4.0 or newer
+
+Требует Windows XP или новее, Framework 4.0 или новее
 
 
 
