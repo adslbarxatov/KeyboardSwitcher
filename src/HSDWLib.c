@@ -227,12 +227,12 @@ LC_API(sint) WDConvert (schar *FNam)
 
 //////////////////////////////////////////////////////////////////////////
 
-LC_API(schar*) REConvert (schar *String)
+LC_API(char*) REConvert (char *String)
 	{
 	// Переменные
 	uint i;
-	schar RESm [256];
-	static schar StringOut [DEFSZ];
+	char RESm [256];
+	static char StringOut [DEFSZ];
 
 	// ---------------------------------------------------------------- 
 	// ЗАПОЛНЕНИЕ МАССИВА ДЛЯ ПРЕОБРАЗОВАНИЯ
@@ -314,12 +314,12 @@ LC_API(schar*) REConvert (schar *String)
 
 //////////////////////////////////////////////////////////////////////////
 
-LC_API(schar*) ERConvert (schar *String)
+LC_API(char*) ERConvert (char *String)
 	{
 	// Объявление
 	uint i;
-	schar RESm[256];
-	static schar StringOut[DEFSZ];
+	char RESm[256];
+	static char StringOut[DEFSZ];
 
 	// ---------------------------------------------------------------- 
 	// ЗАПОЛНЕНИЕ МАССИВА ДЛЯ ПРЕОБРАЗОВАНИЯ

@@ -75,14 +75,11 @@
 #include <string.h>
 #include "..\Generics\CSTypes.h"
 #include <windows.h>
-//#include <conio.h>
-//#include <process.h>				// Для заголовка консольного окна
-//#include <CommDlg.h>
 
 /////////////////////////////////////////////////////////////////////////////////////
 // Ресурсы: данные о создаваемом приложении
-#define LC_VERSION				1,1,0,0
-#define LC_VERSION_S			"1.1.0.0"
+#define LC_VERSION				1,2,0,0
+#define LC_VERSION_S			"1.2.0.0"
 #define LC_PRODUCT				"A tool for quick fixing wrong keyboard layout (based on HSDW 5.2)"
 #define LC_COMPANY				"RD AAOW"
 //#define	LUPD	"Write: 19.12.2012; 19:50; update: 5.10.2017; 1:02"		// EXE Last update
@@ -103,6 +100,6 @@ LC_API(sint) SHConvert	 (schar *FNam);								// Text в HEX
 LC_API(sint) HSConvert	 (schar *FNam);								// HEX в Text
 LC_API(sint) DWConvert	 (schar *FNam);								// DOS в Windows
 LC_API(sint) WDConvert	 (schar *FNam);								// Windows в DOS
-LC_API(schar*) REConvert (schar *String);							// Русскую раскладку в английскую
-LC_API(schar*) ERConvert (schar *String);							// Английскую раскладку в русскую
+LC_API(char*) REConvert (char *String);								// Русскую раскладку в английскую
+LC_API(char*) ERConvert (char *String);								// Английскую раскладку в русскую
 LC_API(void) FileNameOut (uchar Mode, schar *FNam, schar *FNamO);	// Создание имени выходного файла

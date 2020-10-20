@@ -20,7 +20,7 @@
 
 /////////////////////////////////////////////////////////////////////////////////////
 // Переменные
-schar String[DEFSZ], *StringOut;
+char String[DEFSZ], *StringOut;
 HGLOBAL hglb;
 HANDLE hnd;
 
@@ -58,9 +58,9 @@ int main (int argc, char* argv[])
 	sprintf (String, "%s", hnd);
 
 	// Обработка
-	if ((uchar)String[0] < 0x80)		// Английский текст
+	if (String[0] < 0x80)		// Английский текст
 		StringOut = ERConvert (String);
-	else								// Русский текст
+	else						// Русский текст
 		StringOut = REConvert (String);
 
 	// Очистка буфера и загрузка строки
