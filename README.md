@@ -34,20 +34,29 @@ en_us (0x0409) -> ru_ru (0x0419)
 ## Installation / Установка (WinXP, Win7)
 
 It is recommended that you prepare this utility for use. Follow the algorithm presented below:
+
+> First two steps will be performed automatically if you'll use [DPModule](https://github.com/adslbarxatov/DPModule) for installation
+
 1. Place LangChanger.exe directly to ```Program files``` or ```Program files (x86)``` directory.
 2. Create a shortcut for it on your desktop.
 3. Move shortcut to the main menu (it doesn't matter what subfolder you will select).
 4. In Main menu do right click on the shortcut and select ```Properties```. Stay in field ```Hotkey```
-and set key combination for quick call of utility (f.e., ```Ctrl + Alt + K```). Press ```OK``` button.
+and press key combination for quick call of utility (f.e., ```Ctrl + Alt + K```). Press ```OK``` button.
+
 However, nothing disallows you to launch the utility directly from the main menu or desktop
 
+
 Перед использованием утилиту следует подготовить к работе. Для этого:
+
+> Первые два шага будут выполнены автоматически при использовании [DPModule](https://github.com/adslbarxatov/DPModule) для установки приложения
+
 1. Скопируйте файл LangChanger.exe в папку ```Program files``` или ```Program files (x86)```.
 2. Создайте на Рабочем столе ярлык для этого файла.
 3. Переместите ярлык в Главное меню (в любую папку).
 4. В Главном меню щёлкните правой кнопкой мыши по скопированному ярлыку и выберите меню ```Свойства```.
 Установите курсор в поле ```Быстрый вызов``` и нажмите комбинацию клавиш быстрого вызова программы
 (например, ```Ctrl + Alt + K```). Нажмите ```OK```.
+
 Впрочем, ничто не мешает запускать эту утилиту из главного меню или с рабочего стола напрямую
 
 
@@ -75,10 +84,15 @@ This tool can make copy and paste operations by himself (with switching of curre
 ```"C:\Program files\LangChanger.exe" -f```), this option will be activated. But some applications may
 incorrectly react to this option
 
+> Flag will be automatically added to link if you'll use [DPModule](https://github.com/adslbarxatov/DPModule) for installation
+
+
 Утилита может выполнять операции копирования и вставки самостоятельно (с переключением текущего окна).
 Если Вы укажете флаг ```-f``` после имени программы в настройках ярлыка (например,
 ```"C:\Program files\LangChanger.exe" -f```), эта опция станет активной. Однако некоторые приложения
 могут некорректно реагировать на работу этой функции
+
+> Флаг будет добавлен автоматически при использовании [DPModule](https://github.com/adslbarxatov/DPModule) для установки приложения
 
 
 
