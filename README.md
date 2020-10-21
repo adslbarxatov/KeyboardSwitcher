@@ -16,6 +16,8 @@ For example, text ```Vfvf vskf hfve``` will be changed to ```Мама мыла �
 will be replaced with ```Good morning```. Utility also works with punctuation marks.
 Supported directions: ru_ru (0x0419) -> en_us (0x0409), en_us -> ru_ru.
 
+#
+
 Инструмент позволяет исправлять текст, введённый при ошибочно выбранной раскладке клавиатуры.
 Например, текст ```Vfvf vskf hfve``` будет заменён на ```Мама мыла раму```, а текст ```Пщщв ьщктштп``` –
 на ```Good morning```. Утилита поддерживает знаки препинания.
@@ -45,6 +47,7 @@ and press key combination for quick call of utility (f.e., ```Ctrl + Alt + K```)
 
 However, nothing disallows you to launch the utility directly from the main menu or desktop
 
+#
 
 Перед использованием утилиту следует подготовить к работе. Для этого:
 
@@ -69,6 +72,8 @@ determine text language (not a digit or a punctuation sign).
 3. Call LangChanger (f.e., ```Ctrl + Alt + K```, or directly from the main menu).
 4. Paste text backward (```Ctrl + V``` or ```Shift + Ins``` or ```right click + Paste```).
 
+#
+
 1. Выберите 'плохой' текст. Желательно, чтобы первый символ выделенного фрагмента позволял
 однозначно определить язык текста (т.е. это не должна быть цифра или знак препинания).
 2. Скопируйте его в буфер обмена (```Ctrl + C``` или ```Ctrl + Ins``` или ```правый щелчок мыши + Копировать```).
@@ -86,6 +91,7 @@ incorrectly react to this option
 
 > Flag will be automatically added to link if you'll use [DPModule](https://github.com/adslbarxatov/DPModule) for installation
 
+#
 
 Утилита может выполнять операции копирования и вставки самостоятельно (с переключением текущего окна).
 Если Вы укажете флаг ```-f``` после имени программы в настройках ярлыка (например,
@@ -111,6 +117,8 @@ describes general rules that we follow in all of our development processes, rele
 ideas.
 **It must be acquainted by participants and users before using any of laboratory's products.
 By downloading them, you agree to this Policy**
+
+#
 
 Данная [Политика (ADP)](https://vk.com/@rdaaow_fupl-adp), её положения, заключение, EULA и способы применения
 описывают общие правила, которым мы следуем во всех наших процессах разработки, вышедших в релиз приложениях
