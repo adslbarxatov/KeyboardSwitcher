@@ -2,11 +2,9 @@
 > PCC: 0001F18A90C3E8D8
 
 
-
 A tool for quick fixing wrong keyboard layout selection (based on HSDW v 5.2)
 
 Инструмент быстрого исправления раскладки клавиатуры (создан на базе HSDW v 5.2)
-
 
 
 #
@@ -24,12 +22,15 @@ Supported directions: ru_ru (0x0419) -> en_us (0x0409), en_us -> ru_ru.
 
 &nbsp;
 
+
+
 ## Направления перевода / Translation directions:
 
 ```
 ru_ru (0x0419) -> en_us (0x0409)
 en_us (0x0409) -> ru_ru (0x0419)
 ```
+&nbsp;
 
 
 
@@ -62,6 +63,8 @@ However, nothing disallows you to launch the utility directly from the main menu
 
 Впрочем, ничто не мешает запускать эту утилиту из главного меню или с рабочего стола напрямую
 
+&nbsp;
+
 
 
 ## Usage / Использование
@@ -79,6 +82,8 @@ determine text language (not a digit or a punctuation sign).
 2. Скопируйте его в буфер обмена (```Ctrl + C``` или ```Ctrl + Ins``` или ```правый щелчок мыши + Копировать```).
 3. Запустите LangChanger (например, ```Ctrl + Alt + K```, или напрямую из главного меню).
 4. Вставьте текст обратно (```Ctrl + V``` или ```Shift + Ins``` или ```правый щелчок мыши + Вставить```).
+
+&nbsp;
 
 
 
@@ -100,6 +105,8 @@ incorrectly react to this option
 
 > Флаг будет добавлен автоматически при использовании [DPModule](https://github.com/adslbarxatov/DPModule) для установки приложения
 
+&nbsp;
+
 
 
 ## Requirements / Требования
@@ -107,6 +114,8 @@ incorrectly react to this option
 Needs Windows XP or newer, Framework 4.0 or newer
 
 Требует Windows XP или новее, Framework 4.0 или новее
+
+&nbsp;
 
 
 
