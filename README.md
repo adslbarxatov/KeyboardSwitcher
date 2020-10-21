@@ -22,7 +22,7 @@ Supported directions: ru_ru (0x0419) -> en_us (0x0409), en_us -> ru_ru.
 Например, текст ```Vfvf vskf hfve``` будет заменён на ```Мама мыла раму```, а текст ```Пщщв ьщктштп``` –
 на ```Good morning```. Утилита поддерживает знаки препинания.
 
-
+&nbsp;
 
 ## Направления перевода / Translation directions:
 
