@@ -1,5 +1,8 @@
 ﻿LangChanger changes log
 
+Version 1.3:
+• Fixed incorrect paste keys combination for NumLock turned off
+
 Version 1.2:
 • Fixed invalid ru->en direction processing
 

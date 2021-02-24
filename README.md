@@ -1,10 +1,10 @@
-# LangChanger v 1.2
-> PCC: 0001F18A90C3E8D8
+# LangChanger v 1.3
+> PCC: 0001F033316BD6C7
 
 
-A tool for quick fixing wrong keyboard layout selection (based on HSDW v 5.2)
+Quick fixer for texts typed on wrong keyboard layout (based on HSDW v 5.2)
 
-Инструмент быстрого исправления раскладки клавиатуры (создан на базе HSDW v 5.2)
+Инструмент быстрого исправления текста, набранного на неправильной раскладке клавиатуры (создан на базе HSDW v 5.2)
 
 
 #
