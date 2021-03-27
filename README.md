@@ -1,10 +1,10 @@
-# LangChanger v 1.3
-> PCC: 0001F033316BD6C7
+# KeyboardSwitcher v 1.4
+> PCC: 0001FC8995A6526F
 
 
-Quick fixer for texts typed on wrong keyboard layout (based on HSDW v 5.2)
+Quick fixer for texts typed on wrong keyboard layout
 
-Инструмент быстрого исправления текста, набранного на неправильной раскладке клавиатуры (создан на базе HSDW v 5.2)
+Инструмент быстрого исправления текста, набранного на неправильной раскладке клавиатуры
 
 
 #
@@ -12,6 +12,9 @@ Quick fixer for texts typed on wrong keyboard layout (based on HSDW v 5.2)
 This tool allows you to quickly fix entered text when keyboard layout was selected incorrectly.
 For example, text ```Vfvf vskf hfve``` will be changed to ```Мама мыла раму```, and text ```Пщщв ьщктштп```
 will be replaced with ```Good morning```. Utility also works with punctuation marks.
+
+Also you can decode and encode HEX strings: f.e., ```|43|68|61|6E|67|65``` to ```Change``` and backward.
+
 Supported directions: ru_ru (0x0419) -> en_us (0x0409), en_us -> ru_ru.
 
 #
@@ -19,6 +22,8 @@ Supported directions: ru_ru (0x0419) -> en_us (0x0409), en_us -> ru_ru.
 Инструмент позволяет исправлять текст, введённый при ошибочно выбранной раскладке клавиатуры.
 Например, текст ```Vfvf vskf hfve``` будет заменён на ```Мама мыла раму```, а текст ```Пщщв ьщктштп``` –
 на ```Good morning```. Утилита поддерживает знаки препинания.
+
+Кроме того, доступно декодирование и кодирование HEX-строк: например, ```|43|68|61|6E|67|65``` в ```Change``` и наоборот.
 
 &nbsp;
 
@@ -40,7 +45,7 @@ It is recommended that you prepare this utility for use. Follow the algorithm pr
 
 > First two steps will be performed automatically if you'll use [DPModule](https://github.com/adslbarxatov/DPModule) for installation
 
-1. Place LangChanger.exe directly to ```Program files``` or ```Program files (x86)``` directory.
+1. Place KeyboardSwitcher.exe directly to ```Program files``` or ```Program files (x86)``` directory.
 2. Create a shortcut for it on your desktop.
 3. Move shortcut to the main menu (it doesn't matter what subfolder you will select).
 4. In Main menu do right click on the shortcut and select ```Properties```. Stay in field ```Hotkey```
@@ -54,7 +59,7 @@ However, nothing disallows you to launch the utility directly from the main menu
 
 > Первые два шага будут выполнены автоматически при использовании [DPModule](https://github.com/adslbarxatov/DPModule) для установки приложения
 
-1. Скопируйте файл LangChanger.exe в папку ```Program files``` или ```Program files (x86)```.
+1. Скопируйте файл KeyboardSwitcher.exe в папку ```Program files``` или ```Program files (x86)```.
 2. Создайте на Рабочем столе ярлык для этого файла.
 3. Переместите ярлык в Главное меню (в любую папку).
 4. В Главном меню щёлкните правой кнопкой мыши по скопированному ярлыку и выберите меню ```Свойства```.
@@ -69,18 +74,18 @@ However, nothing disallows you to launch the utility directly from the main menu
 
 ## Usage / Использование
 
-1. Select 'bad' text. It is recommended that the first symbol of selected fragment allows to
+1. Select “bad” text. It is recommended that the first symbol of selected fragment allows to
 determine text language (not a digit or a punctuation sign).
 2. Copy it to clipboard (```Ctrl + C``` or ```Ctrl + Ins``` or ```right click + Copy```).
-3. Call LangChanger (f.e., ```Ctrl + Alt + K```, or directly from the main menu).
+3. Call KeyboardSwitcher (f.e., ```Ctrl + Alt + K```, or directly from the main menu).
 4. Paste text backward (```Ctrl + V``` or ```Shift + Ins``` or ```right click + Paste```).
 
 #
 
-1. Выберите 'плохой' текст. Желательно, чтобы первый символ выделенного фрагмента позволял
+1. Выберите «плохой» текст. Желательно, чтобы первый символ выделенного фрагмента позволял
 однозначно определить язык текста (т.е. это не должна быть цифра или знак препинания).
 2. Скопируйте его в буфер обмена (```Ctrl + C``` или ```Ctrl + Ins``` или ```правый щелчок мыши + Копировать```).
-3. Запустите LangChanger (например, ```Ctrl + Alt + K```, или напрямую из главного меню).
+3. Запустите KeyboardSwitcher (например, ```Ctrl + Alt + K```, или напрямую из главного меню).
 4. Вставьте текст обратно (```Ctrl + V``` или ```Shift + Ins``` или ```правый щелчок мыши + Вставить```).
 
 &nbsp;
@@ -91,8 +96,10 @@ determine text language (not a digit or a punctuation sign).
 
 This tool can make copy and paste operations by himself (with switching of current window). If you specify
 ```-f``` flag after the executable's name in shortcut's properties (f.e.,
-```"C:\Program files\LangChanger.exe" -f```), this option will be activated. But some applications may
-incorrectly react to this option
+```"C:\Program files\KeyboardSwitcher.exe" -f```), this option will be activated. But some applications may
+incorrectly react to this option.
+
+HEX coding/encoding available with ```-h``` key.
 
 > Flag will be automatically added to link if you'll use [DPModule](https://github.com/adslbarxatov/DPModule) for installation
 
@@ -100,8 +107,10 @@ incorrectly react to this option
 
 Утилита может выполнять операции копирования и вставки самостоятельно (с переключением текущего окна).
 Если Вы укажете флаг ```-f``` после имени программы в настройках ярлыка (например,
-```"C:\Program files\LangChanger.exe" -f```), эта опция станет активной. Однако некоторые приложения
-могут некорректно реагировать на работу этой функции
+```"C:\Program files\KeyboardSwitcher.exe" -f```), эта опция станет активной. Однако некоторые приложения
+могут некорректно реагировать на работу этой функции.
+
+Кодирование/декодирование HEX-строк доступно с ключом ```-h```.
 
 > Флаг будет добавлен автоматически при использовании [DPModule](https://github.com/adslbarxatov/DPModule) для установки приложения
 
@@ -121,7 +130,7 @@ Needs Windows XP or newer, Framework 4.0 or newer
 
 ## Development policy and EULA / Политика разработки и EULA
 
-This [Policy (ADP)](https://vk.com/@rdaaow_fupl-adp), its positions, conclusion, EULA and application methods
+This [Policy (ADP)](https://vk.com/@rd_aaow_fdl-adp), its positions, conclusion, EULA and application methods
 describes general rules that we follow in all of our development processes, released applications and implemented
 ideas.
 **It must be acquainted by participants and users before using any of laboratory's products.
@@ -129,7 +138,7 @@ By downloading them, you agree to this Policy**
 
 #
 
-Данная [Политика (ADP)](https://vk.com/@rdaaow_fupl-adp), её положения, заключение, EULA и способы применения
+Данная [Политика (ADP)](https://vk.com/@rd_aaow_fdl-adp), её положения, заключение, EULA и способы применения
 описывают общие правила, которым мы следуем во всех наших процессах разработки, вышедших в релиз приложениях
 и реализованных идеях.
 **Обязательна к ознакомлению всем участникам и пользователям перед использованием любого из продуктов лаборатории.
