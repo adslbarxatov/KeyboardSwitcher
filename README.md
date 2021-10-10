@@ -1,5 +1,5 @@
-# KeyboardSwitcher v 1.4
-> PCC: 0001FA8970949AE1
+# KeyboardSwitcher v 1.4.1
+> PCC: 0001FA8BA1D5D7F6
 
 
 Quick fixer for texts typed on wrong keyboard layout
@@ -43,11 +43,11 @@ en_us (0x0409) -> ru_ru (0x0419)
 
 It is recommended that you prepare this utility for use. Follow the algorithm presented below:
 
-> First two steps will be performed automatically if you'll use [DPModule](https://github.com/adslbarxatov/DPModule) for installation
+> First two steps will be performed automatically if you’ll use [DPModule](https://github.com/adslbarxatov/DPModule) for installation
 
 1. Place KeyboardSwitcher.exe directly to ```Program files``` or ```Program files (x86)``` directory.
 2. Create a shortcut for it on your desktop.
-3. Move shortcut to the main menu (it doesn't matter what subfolder you will select).
+3. Move shortcut to the main menu (it doesn’t matter what subfolder you will select).
 4. In Main menu do right click on the shortcut and select ```Properties```. Stay in field ```Hotkey```
 and press key combination for quick call of utility (f.e., ```Ctrl + Alt + K```). Press ```OK``` button.
 
@@ -95,13 +95,13 @@ determine text language (not a digit or a punctuation sign).
 ## Features / Дополнительные возможности
 
 This tool can make copy and paste operations by himself (with switching of current window). If you specify
-```-f``` flag after the executable's name in shortcut's properties (f.e.,
+```-f``` flag after the executable’s name in shortcut’s properties (f.e.,
 ```"C:\Program files\KeyboardSwitcher.exe" -f```), this option will be activated. But some applications may
 incorrectly react to this option.
 
 HEX coding/encoding available with ```-h``` key.
 
-> Flag will be automatically added to link if you'll use [DPModule](https://github.com/adslbarxatov/DPModule) for installation
+> Flag will be automatically added to link if you’ll use [DPModule](https://github.com/adslbarxatov/DPModule) for installation
 
 #
 
