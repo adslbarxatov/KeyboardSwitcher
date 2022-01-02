@@ -1,5 +1,5 @@
-# KeyboardSwitcher v 1.4.1
-> PCC: 0001FA8A2B47515D
+# KeyboardSwitcher v 1.4.2
+> PCC: 0002942783A9CFD6
 
 
 Quick fixer for texts typed on wrong keyboard layout

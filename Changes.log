@@ -1,5 +1,9 @@
 ﻿KeyboardSwitcher changes log
 
+Version 1.4.2:
+• App got the scalable icon and the digital signature (only self-signed for now);
+• Applied some updates for core assemblies
+
 Version 1.4.1:
 • Updated app icon
 
