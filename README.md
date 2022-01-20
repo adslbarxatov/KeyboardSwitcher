@@ -1,5 +1,5 @@
-# KeyboardSwitcher v 1.4.2
-> PCC: 0002942783A9CFD6
+# KeyboardSwitcher v 1.4.3
+> PCC: 00026EA66AEF0EE8
 
 
 Quick fixer for texts typed on wrong keyboard layout
@@ -120,9 +120,10 @@ HEX coding/encoding available with ```-h``` key.
 
 ## Requirements / Требования
 
-Needs Windows XP or newer, Framework 4.0 or newer
+- Windows XP or newer / или новее;
+- [Microsoft VC++ 2010 redistributables](https://www.microsoft.com/en-us/download/details.aspx?id=26999).
 
-Требует Windows XP или новее, Framework 4.0 или новее
+Interface languages / языки интерфейса: en_us.
 
 &nbsp;
 
