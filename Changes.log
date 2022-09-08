@@ -1,5 +1,8 @@
 ﻿KeyboardSwitcher changes log
 
+Version 1.4.142:
+• Rebuilding the app for the MSVC RTL 142 (2015 – 2022)
+
 Version 1.4.37:
 • Current updates applied
 
