@@ -29,12 +29,12 @@ Also you can decode and encode HEX strings: f.e., `|43|68|61|6E|67|65` to `Chang
 
 ## Направления перевода / Translation directions:
 
-```
-ru_ru (0x0419) -> en_us (0x0409)
-en_us (0x0409) -> ru_ru (0x0419)
-HEX -> ASCII (8 bit)
-ASCII (8 bit) -> HEX
-```
+
+`ru_ru (0x0419)` :arrow_right: `en_us (0x0409)`
+`en_us (0x0409)` :arrow_right: `ru_ru (0x0419)`
+`HEX` :arrow_right: `ASCII (8 bit)`
+`ASCII (8 bit)` :arrow_right: `HEX`
+
 &nbsp;
 
 
