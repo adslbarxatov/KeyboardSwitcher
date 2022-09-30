@@ -1,5 +1,5 @@
-# KeyboardSwitcher v 1.4.142
-> PCC: 0002BC6107D98C30
+# KeyboardSwitcher v 1.5
+> PCC: 0002BE43C309A9C2
 
 
 Quick fixer for texts typed on wrong keyboard layout
@@ -43,7 +43,7 @@ Also you can decode and encode HEX strings: f.e., `|43|68|61|6E|67|65` to `Chang
 
 It is recommended that you prepare this utility for use. Follow the algorithm presented below:
 
-> First two steps will be performed automatically if you’ll use [DPModule](https://adslbarxatov.github.io/DPModule) for the app deployment
+> First two steps will be performed automatically if you’ll use [DPArray](https://adslbarxatov.github.io/DPArray) for the app deployment
 
 1. Place KeyboardSwitcher.exe directly to `Program files` or `Program files (x86)` directory.
 2. Create a shortcut for it on your desktop.
@@ -57,7 +57,7 @@ However, nothing disallows you to launch the utility directly from the main menu
 
 Перед использованием утилиту следует подготовить к работе. Для этого:
 
-> Первые два шага будут выполнены автоматически при использовании [DPModule](https://adslbarxatov.github.io/DPModule/ru) для развёртки приложения
+> Первые два шага будут выполнены автоматически при использовании [DPArray](https://adslbarxatov.github.io/DPArray/ru) для развёртки приложения
 
 1. Скопируйте файл KeyboardSwitcher.exe в папку `Program files` или `Program files (x86)`.
 2. Создайте на Рабочем столе ярлык для этого файла.
@@ -101,7 +101,7 @@ incorrectly react to this option.
 
 HEX coding/encoding available with `-h` key.
 
-> Flag will be automatically added to the shortcut if you’ll use [DPModule](https://adslbarxatov.github.io/DPModule) for the app deployment
+> Flag will be automatically added to the shortcut if you’ll use [DPArray](https://adslbarxatov.github.io/DPArray) for the app deployment
 
 #
 
@@ -112,7 +112,7 @@ HEX coding/encoding available with `-h` key.
 
 Кодирование / декодирование HEX-строк доступно с ключом `-h`.
 
-> Флаг будет добавлен автоматически при использовании [DPModule](https://adslbarxatov.github.io/DPModule/ru) для развёртки приложения
+> Флаг будет добавлен автоматически при использовании [DPArray](https://adslbarxatov.github.io/DPArray/ru) для развёртки приложения
 
 &nbsp;
 
@@ -120,7 +120,7 @@ HEX coding/encoding available with `-h` key.
 
 ## Requirements / Требования
 
-- Windows XP or newer / или новее;
+- Windows 7 or newer / или новее;
 - [Microsoft Visual C++ 2015 – 2022 redistributable](https://aka.ms/vs/17/release/vc_redist.x86.exe).
 
 Interface languages / языки интерфейса: en_us.
