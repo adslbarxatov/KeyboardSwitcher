@@ -2,6 +2,7 @@
 > PCC: 0002BE43C309A9C2
 
 
+
 Quick fixer for texts typed on wrong keyboard layout
 
 Инструмент быстрого исправления текста, набранного на неправильной раскладке клавиатуры
