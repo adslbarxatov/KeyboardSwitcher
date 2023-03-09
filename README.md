@@ -1,5 +1,4 @@
 # KeyboardSwitcher v 1.5
-> PCC: 0002BE43C309A9C2
 
 
 
@@ -16,6 +15,8 @@ will be replaced with `Good morning`. Utility also works with punctuation marks.
 
 Also you can decode and encode HEX strings: f.e., `|43|68|61|6E|67|65` to `Change` and backward.
 
+:warning: ***This repository will no longer receive updates***
+
 #
 
 Инструмент позволяет исправлять текст, введённый при ошибочно выбранной раскладке клавиатуры.
@@ -23,6 +24,8 @@ Also you can decode and encode HEX strings: f.e., `|43|68|61|6E|67|65` to `Chang
 на `Good morning`. Утилита поддерживает знаки препинания.
 
 Кроме того, доступно декодирование и кодирование HEX-строк: например, `|43|68|61|6E|67|65` в `Change` и наоборот.
+
+:warning: ***Этот репозиторий больше не будет получать обновления***
 
 &nbsp;
 
@@ -44,8 +47,6 @@ Also you can decode and encode HEX strings: f.e., `|43|68|61|6E|67|65` to `Chang
 
 It is recommended that you prepare this utility for use. Follow the algorithm presented below:
 
-> First two steps will be performed automatically if you’ll use [DPArray](https://adslbarxatov.github.io/DPArray) for the app deployment
-
 1. Place KeyboardSwitcher.exe directly to `Program files` or `Program files (x86)` directory.
 2. Create a shortcut for it on your desktop.
 3. Move shortcut to the main menu (it doesn’t matter what subfolder you will select).
@@ -57,8 +58,6 @@ However, nothing disallows you to launch the utility directly from the main menu
 #
 
 Перед использованием утилиту следует подготовить к работе. Для этого:
-
-> Первые два шага будут выполнены автоматически при использовании [DPArray](https://adslbarxatov.github.io/DPArray/ru) для развёртки приложения
 
 1. Скопируйте файл KeyboardSwitcher.exe в папку `Program files` или `Program files (x86)`.
 2. Создайте на Рабочем столе ярлык для этого файла.
@@ -102,8 +101,6 @@ incorrectly react to this option.
 
 HEX coding/encoding available with `-h` key.
 
-> Flag will be automatically added to the shortcut if you’ll use [DPArray](https://adslbarxatov.github.io/DPArray) for the app deployment
-
 #
 
 Утилита может выполнять операции копирования и вставки самостоятельно (с переключением текущего окна).
@@ -112,19 +109,6 @@ HEX coding/encoding available with `-h` key.
 могут некорректно реагировать на работу этой функции.
 
 Кодирование / декодирование HEX-строк доступно с ключом `-h`.
-
-> Флаг будет добавлен автоматически при использовании [DPArray](https://adslbarxatov.github.io/DPArray/ru) для развёртки приложения
-
-&nbsp;
-
-
-
-## Requirements / Требования
-
-- Windows 7 or newer / или новее;
-- [Microsoft Visual C++ 2015 – 2022 redistributable](https://aka.ms/vs/17/release/vc_redist.x86.exe).
-
-Interface languages / языки интерфейса: en_us.
 
 &nbsp;
 
